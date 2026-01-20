@@ -1,0 +1,36 @@
+{
+  "name": "turbophp-org/command",
+  "description": "TurboPHP 框架命令行工具库，提供统一 CLI 接口和任务调度支持，方便开发和运维操作。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "command",
+    "cli",
+    "task"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/command/issues",
+    "source": "https://github.com/turbophp-org/command",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/command/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Command\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
